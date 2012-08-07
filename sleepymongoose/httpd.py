@@ -14,7 +14,7 @@
 
 from SocketServer import BaseServer
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
-from handlers import MongoHandler
+from sleepymongoose.handlers import MongoHandler
 
 try:
     from OpenSSL import SSL
